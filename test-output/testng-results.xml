@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-18T21:52:33 IST" name="softwate testing" finished-at="2024-02-18T21:54:04 IST" duration-ms="90674">
+    <groups>
+    </groups>
+    <test started-at="2024-02-18T21:52:33 IST" name="testng test" finished-at="2024-02-18T21:54:04 IST" duration-ms="90674">
+      <class name="com.lavatech.www.TestClass">
+        <test-method is-config="true" signature="connectSite()[pri:0, instance:com.lavatech.www.TestClass@f5acb9d]" started-at="2024-02-18T21:52:33 IST" name="connectSite" finished-at="2024-02-18T21:52:36 IST" duration-ms="2640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectSite -->
+        <test-method signature="register(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.lavatech.www.TestClass@f5acb9d]" started-at="2024-02-18T21:52:36 IST" name="register" finished-at="2024-02-18T21:53:00 IST" duration-ms="24063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rimikumari@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rimik1234@12345@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rimi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kumari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:com.lavatech.www.TestClass@f5acb9d]" started-at="2024-02-18T21:53:00 IST" name="login" finished-at="2024-02-18T21:53:11 IST" duration-ms="11435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rimikumari@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rimik1234@12345@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="cart()[pri:2, instance:com.lavatech.www.TestClass@f5acb9d]" started-at="2024-02-18T21:53:11 IST" name="cart" finished-at="2024-02-18T21:53:27 IST" duration-ms="15513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method signature="orderPlace()[pri:3, instance:com.lavatech.www.TestClass@f5acb9d]" started-at="2024-02-18T21:53:27 IST" name="orderPlace" finished-at="2024-02-18T21:54:04 IST" duration-ms="36885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderPlace -->
+        <test-method is-config="true" signature="closeSite()[pri:0, instance:com.lavatech.www.TestClass@f5acb9d]" started-at="2024-02-18T21:54:04 IST" name="closeSite" finished-at="2024-02-18T21:54:04 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSite -->
+      </class> <!-- com.lavatech.www.TestClass -->
+    </test> <!-- testng test -->
+  </suite> <!-- softwate testing -->
+</testng-results>
